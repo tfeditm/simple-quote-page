@@ -1,0 +1,51 @@
+.cover {
+  background: url(assets/freedom.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: hsla(216,90%,90%,.9);
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.blockquote-wrapper {
+  height: 94vh;
+  width: 100vw;
+  display: table;
+}
+
+blockquote {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1rem 2rem;
+  text-shadow: hsla(0, 0%, 0%, .9) 0 0 1px;
+}
+
+blockquote p {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+blockquote footer {
+  font-style: italic;
+}
+
+.footer-wrapper {
+  background-color: hsla(27,43%,4%,.6);
+  position: absolute;
+  bottom: 0;
+  height: 6vh;
+  width: 100vw;
+  font-size: .9rem;
+  line-height: .9rem;
+  display: table;
+}
+
+.footer-wrapper small {
+  display: table-cell;
+  vertical-align: middle;
+}
