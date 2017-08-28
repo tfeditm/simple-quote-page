@@ -3,7 +3,7 @@
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  color: hsla(216,90%,90%,.9);
+  color: hsla(216,100%,93%,1);
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 400;
   text-align: center;
@@ -19,7 +19,7 @@ blockquote {
   display: table-cell;
   vertical-align: middle;
   padding: 1rem 2rem;
-  text-shadow: hsla(0, 0%, 0%, .9) 0 0 1px;
+  text-shadow: 0 0 10px hsla(0, 0%, 0%, 1);
 }
 
 blockquote p {
