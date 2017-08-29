@@ -59,12 +59,18 @@ blockquote p {
     padding: 1rem 10rem;
   }
   blockquote i {
-    font-size: 4rem;
-    margin-bottom: 4rem;
+    font-size: 3.2rem;
+    margin-bottom: 3.2rem;
   }
   blockquote p {
     font-size: 2rem;
-    margin-bottom: 12rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media all and (min-width: 1800px) {
+  blockquote i {
+    font-size: 4rem;
   }
 }
 
